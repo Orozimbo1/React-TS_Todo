@@ -29,6 +29,7 @@
   cursor: pointer;
   background-color: #282c34;
   border-radius: 5px;
+  border: 1px solid #282c34;
   color: #fff;
   padding: .4em;
   transition: .5s;
@@ -38,4 +39,5 @@
   background-color: #fff;
   border: 1px solid #282c34;
   color: #282c34;
+
 }
