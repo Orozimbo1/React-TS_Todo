@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import TaskList from './components/TaskList'
 import Taskform from './components/Taskform'
+import Modal from './components/Modal'
 
 // Interface
 import { ITask } from './interface/Task'
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+      <Modal />
       <Header />
       <main className={styles.main}>
         <div>
